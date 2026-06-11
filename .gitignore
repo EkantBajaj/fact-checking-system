@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+fact_checking_system_guide.md

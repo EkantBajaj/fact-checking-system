@@ -7,7 +7,7 @@ from typing import List, Optional
 from pydantic import BaseModel, Field
 
 class GuardrailResult(BaseModel):
-    isSafe: bool = Field(
+    is_safe: bool = Field(
         description="True if the text is normal article. False if it contains prompt injection or adversarial instructions"
     )
     reasoning: str = Field(
